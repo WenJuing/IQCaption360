@@ -11,107 +11,123 @@ OIQ-10K database contains 10,000 omnidirectional images with homogeneous and het
 
 Visualization of omnidirectional images with different distorted regions in the proposed OIQ-10K database. The distortion region(s) of the visual examples in (b) and (c) are marked in red for better visual presentation.
 
-## Detailed information
+## Data Composition
 
 <table style="width: 100%"><thead>
   <tr>
     <th style="width: 25%">Distortion range</th>
     <th style="width: 25%">Distortion type</th>
+    <th style="width: 25%">Distortion level</th>
     <th style="width: 25%">Number</th>
     <th style="width: 25%">Remark</th>
   </tr></thead>
 <tbody>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td>-</td>
+    <td>invalid</td>
+    <td>invalid</td>
     <td>2,500</td>
     <td></td>
   </tr>
   <tr>
     <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td>Gaussian noise</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>Gaussian blur</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>Stitching</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>brightness discontinuity</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td>Gaussian noise</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>Gaussian blur</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>Stitching</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td>brightness discontinuity</td>
+    <td>1~3</td>
     <td>627</td>
     <td></td>
   </tr>
   <tr>
     <td rowspan="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td>compression</td>
+    <td>-</td>
     <td>1,436</td>
-    <td>JPEG compression (590), JPEG2000 compression (212), AVC compression (176), HEVC compression (383), VP9 compression (75)</td>
+    <td>include: JPEG compression (590), JPEG2000 compression (212), AVC compression (176), HEVC compression (383), VP9 compression (75)</td>
   </tr>
   <tr>
     <td>Guassian noise</td>
+    <td>-</td>
     <td>248</td>
     <td></td>
   </tr>
   <tr>
     <td>Guassian blur</td>
+    <td>-</td>
     <td>155</td>
     <td></td>
   </tr>
   <tr>
     <td>Stitching</td>
+    <td>-</td>
     <td>75</td>
     <td></td>
   </tr>
   <tr>
     <td>downsampling</td>
+    <td>-</td>
     <td>75</td>
     <td></td>
   </tr>
   <tr>
     <td>JPEG XT and TM</td>
+    <td>-</td>
     <td>319</td>
     <td></td>
   </tr>
   <tr>
     <td>Authentic distortion</td>
+    <td>invalid</td>
     <td>176</td>
     <td></td>
   </tr>
 </tbody></table>
 
+NOTE: More detailed information about images see the file `data_info.csv`
 
-## Download
+## Database Download
 Click here: <a href="https://drive.google.com/drive/folders/18vCXea59S9JMYSaXBAe82mxa-_6i7FFJ" target="_blank">Google drive</a>
-
-The data_info.csv contains 
 
 # IQCaption360 Architecture
 
