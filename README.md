@@ -30,53 +30,28 @@ Visualization of omnidirectional images with different distorted regions in the 
     <td></td>
   </tr>
   <tr>
-    <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R2/R3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td>Gaussian noise</td>
     <td>1~3</td>
-    <td>627</td>
+    <td>627/627</td>
     <td></td>
   </tr>
   <tr>
     <td>Gaussian blur</td>
     <td>1~3</td>
-    <td>627</td>
+    <td>627/627</td>
     <td></td>
   </tr>
   <tr>
     <td>Stitching</td>
     <td>1~3</td>
-    <td>627</td>
+    <td>627/627</td>
     <td></td>
   </tr>
   <tr>
     <td>brightness discontinuity</td>
     <td>1~3</td>
-    <td>627</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td>Gaussian noise</td>
-    <td>1~3</td>
-    <td>627</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Gaussian blur</td>
-    <td>1~3</td>
-    <td>627</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Stitching</td>
-    <td>1~3</td>
-    <td>627</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>brightness discontinuity</td>
-    <td>1~3</td>
-    <td>627</td>
+    <td>627/627</td>
     <td></td>
   </tr>
   <tr>
