@@ -1,0 +1,1 @@
+nohup python train.py > './log/IQCaption360-AFA-MSFS-VPFS-DRPN-QSPN-lr1e-4-bs32-epoch50.log' 2>&1 &
