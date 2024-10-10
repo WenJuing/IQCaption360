@@ -2,7 +2,7 @@
 
 Pytorch implementation of the paper "Omnidirectional Image Quality Captioning: A Large-scale Database and a New Model"
 
-## OIQ-10K Database
+## :seedling:OIQ-10K Database
 
 ### Introduction
 OIQ-10K database contains 10,000 omnidirectional images with homogeneous and heterogeneous distortion, which demonstrated by four distortion ranges: no perceptibly distorted region (2,500), one distorted region (2,508), two distorted regions (2,508), and global distortion (2,484). MOS is 1~3.
@@ -105,7 +105,7 @@ Visualization of omnidirectional images with different distorted regions in the 
 ### Database Download
 Click here: <a href="https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg" target="_blank">https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg (pass: jvga)</a> to downloard the OIQ-10K database.
 
-## IQCaption360 Architecture
+## :dart:IQCaption360 Architecture
 
 <p align="center"><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/IQCaption360.png" width="900"></p>
 The architecture of the proposed IQCaption. It contains four parts: (a) backbone, (b) adaptive feature aggregation module, (c) distortion range prediction network, and (d) quality score prediction network.
@@ -128,7 +128,7 @@ The Caption360 can output a caption to represent the perceptual quality of omnid
   
 <p><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output4.jpg" width="700"></p>
 
-## Usage
+## :eyes:Usage
 
 ### Install
 1. Clone this repo:
@@ -137,8 +137,6 @@ git clone https://github.com/WenJuing/IQCaption360
 cd IQCaption360
 ``` 
 2. Create an Anaconda environment with <a href="https://shi-labs.com/natten/" target="_blank">natten 0.14.6</a>
-
-### Reference Configuration
 
 ### Inference one Image
 ```python
