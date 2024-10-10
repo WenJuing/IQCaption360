@@ -2,7 +2,7 @@
 
 Pytorch implementation of the paper "Omnidirectional Image Quality Captioning: A Large-scale Database and a New Model"
 
-## OIQ-10K database
+## OIQ-10K Database
 
 ### Introduction
 OIQ-10K database contains 10,000 omnidirectional images with homogeneous and heterogeneous distortion, which demonstrated by four distortion ranges: no perceptibly distorted region (2,500), one distorted region (2,508), two distorted regions (2,508), and global distortion (2,484). MOS is 1~3.
@@ -11,7 +11,7 @@ OIQ-10K database contains 10,000 omnidirectional images with homogeneous and het
 
 Visualization of omnidirectional images with different distorted regions in the proposed OIQ-10K database. The distortion region(s) of the visual examples in (b) and (c) are marked in red for better visual presentation.
 
-### Data Composition
+### Distortion Composition
 
 <table style="width: 100%"><thead>
   <tr>
@@ -99,10 +99,11 @@ Visualization of omnidirectional images with different distorted regions in the 
   </tr>
 </tbody></table>
 
-NOTE: More detailed information about images see the file `data_info.csv`
+* R1: no perceptibly distorted region, R2: one distorted region, R3: two distorted regions, R4: global distortion
+* The MOS and more detailed information about images see the file <a href="https://drive.google.com/file/d/1D13S2JuMt636nImaJzo_4IYBE30K6r0U/view?usp=sharing" target="_blank">data_info.csv</a>
 
 ### Database Download
-Click here: <a href="https://drive.google.com/drive/folders/18vCXea59S9JMYSaXBAe82mxa-_6i7FFJ" target="_blank">google drive</a>
+Click here: <a href="https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg" target="_blank">https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg (pass: jvga)</a> to downloard the OIQ-10K database.
 
 ## IQCaption360 Architecture
 
@@ -111,7 +112,21 @@ The architecture of the proposed IQCaption. It contains four parts: (a) backbone
 
 ### Textual Output
 The Caption360 can output a caption to represent the perceptual quality of omnidirectional images.
-<p align="center"><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output_example.png" width="600"></p>
+* Example1
+  
+<p><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output1.jpg" width="700"></p>
+
+* Example2
+  
+<p><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output2.jpg" width="700"></p>
+
+* Example3
+  
+<p><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output3.jpg" width="700"></p>
+
+* Example4
+  
+<p><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/output4.jpg" width="700"></p>
 
 ## Usage
 
@@ -123,11 +138,13 @@ cd IQCaption360
 ``` 
 2. Create an Anaconda environment with <a href="https://shi-labs.com/natten/" target="_blank">natten 0.14.6</a>
 
+### Reference Configuration
+
 ### Inference one Image
 ```python
 CUDA_VISIBLE_DEVICES=0 python inference_one_image.py --load_ckpt_path /home/xxxy/tzw/IQCaption360/ckpt/IQCaption_OIQ-10K.pth --test_img_path /home/xxxy/tzw/databases/viewports_8/ref2.jpg
 ``` 
-* Download `weights` [ <a href="https://drive.google.com/file/d/1UukN1kKtPkO-2a4ITn3-_d4KD8Dp81oM/view?usp=sharing" target="_blank">google drive</a> | <a href="https://pan.baidu.com/s/1bp4dxKpReAVp8cszuDysng" target="_blank">BaiduYu</a> (jeop) ] pretrained on OIQ-10K database
+* Download `weights` [ <a href="https://drive.google.com/file/d/1UukN1kKtPkO-2a4ITn3-_d4KD8Dp81oM/view?usp=sharing" target="_blank">google drive</a> | <a href="https://pan.baidu.com/s/1bp4dxKpReAVp8cszuDysng" target="_blank">baidu cloud</a> (password: jeop) ] pretrained on OIQ-10K database
 * `test_img` offers a group of processed omnidirectional images
 
 ### Train and Test
@@ -137,16 +154,17 @@ Edit `config.py` for configuration
 * Train
 
 ```python
+CUDA_VISIBLE_DEVICES=0 python train.py
+```
+or
+```python
 sh run.sh
 ```
-or 
-```python
-python train.py
-```
+
 * Test
 
 ```python
-python test.py
+CUDA_VISIBLE_DEVICES=0 python test.py
 ```
 
 ## Citation
