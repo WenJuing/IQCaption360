@@ -78,32 +78,32 @@ Visualization of omnidirectional images with different distorted regions in the 
     <td>invalid</td>
     <td>invalid</td>
     <td>2,500</td>
-    <td>from: JUFE (115), CVIQ (10), OIQA (10), Salient360! (60), Xu2021 (436), NBU-SOID (7), LIVE 3D VR IQA (12), Pixexid (150), Flickr (1,700)</td>
+    <td>source: JUFE (115), CVIQ (10), OIQA (10), Salient360! (60), Xu2021 (436), NBU-SOID (7), LIVE 3D VR IQA (12), Pixexid (150), Flickr (1,700)</td>
   </tr>
   <tr>
     <td rowspan="4">CdistR1/CdistR2</td>
     <td>Gaussian noise</td>
     <td>1~3</td>
     <td>627/627</td>
-    <td></td>
+    <td>source: extend from JUFE</td>
   </tr>
   <tr>
     <td>Gaussian blur</td>
     <td>1~3</td>
     <td>627/627</td>
-    <td></td>
+    <td>source: extend from JUFE</td>
   </tr>
   <tr>
     <td>Stitching</td>
     <td>1~3</td>
     <td>627/627</td>
-    <td></td>
+    <td>source: extend from JUFE</td>
   </tr>
   <tr>
     <td>brightness discontinuity</td>
     <td>1~3</td>
     <td>627/627</td>
-    <td></td>
+    <td>source: extend from JUFE</td>
   </tr>
   <tr>
     <td rowspan="7">CdistGl</td>
@@ -113,44 +113,44 @@ Visualization of omnidirectional images with different distorted regions in the 
     <td>include: JPEG compression (590), JPEG2000 compression (212), AVC compression (176), HEVC compression (383), VP9 compression (75)</td>
   </tr>
   <tr>
-    <td>Guassian noise</td>
+    <td>Gaussian noise</td>
     <td>-</td>
     <td>248</td>
-    <td></td>
+    <td>source: LIVE 3D VR (75), OIQA (78), Flickr (95)</td>
   </tr>
   <tr>
-    <td>Guassian blur</td>
+    <td>Gaussian blur</td>
     <td>-</td>
     <td>155</td>
-    <td></td>
+    <td>source: LIVE 3D VR (75), OIQA (80)</td>
   </tr>
   <tr>
     <td>Stitching</td>
-    <td>-</td>
+    <td>1~5</td>
     <td>75</td>
-    <td></td>
+    <td>source: LIVE 3D VR</td>
   </tr>
   <tr>
     <td>downsampling</td>
-    <td>-</td>
+    <td>1~5</td>
     <td>75</td>
-    <td></td>
+    <td>source: LIVE 3D VR</td>
   </tr>
   <tr>
     <td>JPEG XT and TM</td>
     <td>-</td>
     <td>319</td>
-    <td></td>
+    <td>source: NBU-HOID</td>
   </tr>
   <tr>
     <td>Authentic distortion</td>
     <td>invalid</td>
     <td>176</td>
-    <td></td>
+    <td>source: Pixexid</td>
   </tr>
 </tbody></table>
 
-* The MOS and more detailed information about images see the file <a href="https://drive.google.com/file/d/1D13S2JuMt636nImaJzo_4IYBE30K6r0U/view?usp=sharing" target="_blank">data_info.csv</a>
+* The MOS and more detailed information about images see the file <a href="https://drive.google.com/file/d/1IJgsXB0GcavodXsEa6ee003s5WVp8WtJ/view?usp=sharing" target="_blank">OIQ-10K_data_info.csv</a>
 
 ### Database Download
 Click here: <a href="https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg" target="_blank">https://pan.baidu.com/s/1Uy0AR9B2oCAIJuLCuZEtLg (pass: jvga)</a> to downloard the OIQ-10K database.
