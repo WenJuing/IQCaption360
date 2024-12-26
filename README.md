@@ -7,7 +7,7 @@ Pytorch implementation of the paper "Omnidirectional Image Quality Captioning: A
 ### Introduction
 OIQ-10K database contains 10,000 omnidirectional images with homogeneous and heterogeneous distortion, which demonstrated by four distortion situation: no perceptibly distorted region (2,500), one distorted region (2,508), two distorted regions (2,508), and global distortion (2,484). MOS is 1~3.
 
-<p align="center"><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/database.png" width="900"></p>
+<p align="center"><img src="https://github.com/WenJuing/IQCaption360/blob/main/imgs/database.jpg" width="900"></p>
 
 Visualization of omnidirectional images with different distorted regions in the proposed OIQ-10K database. The distortion region(s) of the visual examples in (b) and (c) are marked in red for better visual presentation.
 
