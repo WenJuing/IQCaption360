@@ -1,6 +1,18 @@
 # *Omnidirectional Image Quality Captioning: A Large-scale Database and a New Model*
 
-Pytorch implementation of the paper "Omnidirectional Image Quality Captioning: A Large-scale Database and a New Model"
+Jiebin Yan<sup>1</sup>, Ziwen Tan<sup>1</sup>, Yuming Fang<sup>1</sup>, Junjie Chen<sup>1</sup>, Wenhui Jiang<sup>1</sup>, and Zhou Wang<sup>2</sup>.
+
+<sup>1</sup> Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
+
+<sup>2</sup> Electrical and Computer Engineering, University of Waterloo
+
+## :four_leaf_clover:News:
+
+- **February 21, 2025**: The arXiv version of our paper is released: <a href="https://arxiv.org/abs/2502.15271" target="_blank">https://arxiv.org/abs/2502.15271.</a>
+
+- **January 27, 2025**: Our paper is accepted by *IEEE T-IP*!
+
+- **October 6, 2024**: We upload the OIQ-10K database and the IQCaption36 code.
 
 ## :seedling:OIQ-10K Database
 
@@ -217,9 +229,11 @@ CUDA_VISIBLE_DEVICES=0 python test.py
 
 ## Citation
 ```plaintext
-@article{yan2024caption360,
-title={Omnidirectional image quality captioning: A large-scale database and a new model},
-author={Yan, Jiebin and Tan, Ziwen and Fang, Yuming and Chen, Junjie and Wang, Zhou},
-year={2024}
+@article{yan2025omnidirectional,
+  title={Omnidirectional image quality captioning: A large-scale database and a new model},
+  author={Yan, Jiebin and Tan, Ziwen and Fang, Yuming and Chen, Junjie and Jiang, Wenhui and Wang, Zhou},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
 }
 ```
