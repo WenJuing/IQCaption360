@@ -234,6 +234,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py
   author={Yan, Jiebin and Tan, Ziwen and Fang, Yuming and Chen, Junjie and Jiang, Wenhui and Wang, Zhou},
   journal={IEEE Transactions on Image Processing},
   year={2025},
-  publisher={IEEE}
+  volume={34},
+  pages={1326-1339},
 }
 ```
