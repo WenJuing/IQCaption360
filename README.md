@@ -12,7 +12,7 @@ Jiebin Yan<sup>1</sup>, Ziwen Tan<sup>1</sup>, Yuming Fang<sup>1</sup>, Junjie C
 
 - **January 27, 2025**: Our paper is accepted by *IEEE T-IP*!
 
-- **October 6, 2024**: We upload the OIQ-10K database and the IQCaption36 code.
+- **October 6, 2024**: We upload the OIQ-10K database and the IQCaption360 code.
 
 ## :seedling:OIQ-10K Database
 
