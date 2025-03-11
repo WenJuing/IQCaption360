@@ -2,9 +2,9 @@
 
 Jiebin Yan<sup>1</sup>, Ziwen Tan<sup>1</sup>, Yuming Fang<sup>1</sup>, Junjie Chen<sup>1</sup>, Wenhui Jiang<sup>1</sup>, and Zhou Wang<sup>2</sup>.
 
-<sup>1</sup> Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
+<sup>1</sup> School of Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
 
-<sup>2</sup> Electrical and Computer Engineering, University of Waterloo
+<sup>2</sup> Department of Electrical and Computer Engineering, University of Waterloo
 
 ## :four_leaf_clover:News:
 
